@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<%= request.getParameter("name")%>님 안녕하세요.
+	<br>
+	
+	Enjoy our Homepage <br>
+	Have a great time <br>
 </body>
 </html>
