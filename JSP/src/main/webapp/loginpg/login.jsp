@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h2>로그인</h2>
-	<form action = "login.do" method = "post" name = "frm">
+	<form action = "../login.do" method = "post" name = "frm">
 		<table>
 			<tr>
 				<td>아이디 </td>

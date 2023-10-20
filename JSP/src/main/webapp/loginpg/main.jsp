@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:if test="${ empty loginUser }">
-<jsp:forward page = "login.do" />
+<jsp:forward page = "../login.do" />
 </c:if>
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action = "logout.do">
+	<form action = "../logout.do">
 		<table>
 			<tr>
 				<td>
